@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ofComponent } from './component/of/of.component';
 import { FromComponent } from './component/from/from.component';
+import { FromEventComponent } from './component/from-event/from-event.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ofComponent,
-    FromComponent
+    FromComponent,
+    FromEventComponent
   ],
   imports: [
     BrowserModule,
