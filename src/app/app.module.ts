@@ -7,6 +7,7 @@ import { ofComponent } from './component/of/of.component';
 import { FromComponent } from './component/from/from.component';
 import { FromEventComponent } from './component/from-event/from-event.component';
 import { SwitchMapComponent } from './component/switch-map/switch-map.component';
+import { NextPageComponent } from './pages/next-page/next-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SwitchMapComponent } from './component/switch-map/switch-map.component'
     ofComponent,
     FromComponent,
     FromEventComponent,
-    SwitchMapComponent
+    SwitchMapComponent,
+    NextPageComponent
   ],
   imports: [
     BrowserModule,
